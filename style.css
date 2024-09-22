@@ -1,0 +1,137 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0ef6cc;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+
+}
+
+.header-links a{
+    margin: 0px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+.header-links a:hover{
+    color:black;
+}
+header h2 {
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.presentation{
+    padding: 100px 150px;
+    background-image: url(./images/pexels-pixabay-40896.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.presentation h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+}
+
+.presentation h1 {
+    font-size: 50px;
+    color: #FCCD2A;
+    margin: 0px;
+}
+.presentation button {
+    margin: 40px 0px;
+    padding: 10px 20px;
+    background-color: #6256CA;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+.presentation button:hover {
+    background-color:#301ecd ;
+    transform: scale(1.1,1.1);
+}
+
+.social-media{
+    font-size: 25px;
+ 
+}
+.social-media a {
+    margin: 0px 10px;
+    color: black;
+    transition: 0.7s ease;
+}
+.social-media a:hover {
+    color: white;
+    transform: scale(1.1,1.1);
+}
+
+
+.service{
+    padding: 90px 250px ;
+}
+
+.card-service{
+    border: solid 2px;
+    border-radius: 8px;
+    width: 30%;
+    margin: 0px 10px;
+    box-shadow: 0px 5px 25px rgb(1 1 1/50%) ;
+   transition: 0.7s ease;
+   margin-bottom: 20px;
+
+}
+
+.card-service:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card-service h2 {
+    margin-top: 120px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+.card-info span {
+    font-weight: bolder;
+}
+
+.logo{
+    text-align: center;
+    font-size: 150px;
+    color: #1230AE;
+}
+
+.service-title {
+margin-bottom: 100px;
+font-size: 50px;
+text-align: center;
+color: #4F75FF;
+}
+
+
+/* box shadow 0px (vertical) 5px (horizontal) 30px(el khochen) rgb (1 1 1 / 25%) */
+
+
+
